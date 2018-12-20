@@ -51,7 +51,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   Course.msg
-#   Message2.msg
+  VesselWaypoint.msg
+  VesselPath.msg
 )
 
 ## Generate services in the 'srv' folder
